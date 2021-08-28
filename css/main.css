@@ -4,6 +4,7 @@
   src: local('☺'), url('../fonts/gilroy-regular.woff') format('woff'), url('../fonts/gilroy-regular.ttf') format('truetype'), url('../fonts/gilroy-regular.svg') format('svg');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'gilroy';
@@ -11,6 +12,7 @@
   src: local('☺'), url('../fonts/gilroy-bold.woff') format('woff'), url('../fonts/gilroy-bold.ttf') format('truetype'), url('../fonts/gilroy-bold.svg') format('svg');
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'gilroy';
@@ -18,6 +20,7 @@
   src: local('☺'), url('../fonts/gilroy-medium.woff') format('woff'), url('../fonts/gilroy-medium.ttf') format('truetype'), url('../fonts/gilroy-medium.svg') format('svg');
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'gilroy';
@@ -25,6 +28,7 @@
   src: local('☺'), url('../fonts/gilroy-semibold.woff') format('woff'), url('../fonts/gilroy-semibold.ttf') format('truetype'), url('../fonts/gilroy-semibold.svg') format('svg');
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'GothamPro';
@@ -32,6 +36,7 @@
   src: local('☺'), url('../fonts/GothamPro-Bold.woff') format('woff'), url('../fonts/GothamPro-Bold.ttf') format('truetype'), url('../fonts/GothamPro-Bold.svg') format('svg');
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Yeseva One';
@@ -39,6 +44,7 @@
   src: local('☺'), url('../fonts/ofont.ru_Yeseva One.woff') format('woff'), url('../fonts/ofont.ru_Yeseva One.ttf') format('truetype'), url('../fonts/ofont.ru_Yeseva One.svg') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 .none {
   display: none;
