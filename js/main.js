@@ -147,3 +147,19 @@ if(modalThanksWrap) {
         modalThanks.classList.remove('modal__thanks--active');
     })
 }
+
+$(document).ready(function(e) {
+    $('audio,video').bind('play', function() {
+    activated = this;
+    $('audio,video').each(function() {
+        if(this != activated) this.pause();
+    });
+});
+// Для flash
+$(".video-js").click(function(){
+    activated = this;
+    $('.video-js').each(function() {
+        if(this != activated) _V_($(this).attr("id")).pause();
+    });
+});
+});
