@@ -1,12 +1,1 @@
-<svg width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="33.5" cy="33.5" r="33" transform="rotate(180 33.5 33.5)" fill="#C43869" stroke="#F2F2F2"/>
-<g clip-path="url(#clip0)">
-<rect width="44.6667" height="44.6667" transform="translate(55.8333 55.8333) rotate(180)" fill="#C43869"/>
-<path d="M55.8333 33.4998L18.8437 33.4998M18.8437 33.4998L30.0103 44.6665M18.8437 33.4998L30.0103 22.3332" stroke="#FEF0F3"/>
-</g>
-<defs>
-<clipPath id="clip0">
-<rect width="44.6667" height="44.6667" fill="white" transform="translate(55.8333 55.8333) rotate(180)"/>
-</clipPath>
-</defs>
-</svg>
+<svg width="67" height="67" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="33.5" cy="33.5" r="33" transform="rotate(180 33.5 33.5)" fill="#C43869" stroke="#F2F2F2"/><g clip-path="url(#clip0)"><path fill="#C43869" d="M55.833 55.833H11.166V11.166h44.667z"/><path d="M55.833 33.5h-36.99m0 0L30.01 44.666M18.844 33.5L30.01 22.333" stroke="#FEF0F3"/></g><defs><clipPath id="clip0"><path fill="#fff" transform="rotate(180 27.917 27.917)" d="M0 0h44.667v44.667H0z"/></clipPath></defs></svg>
