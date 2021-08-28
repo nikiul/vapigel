@@ -1788,56 +1788,56 @@ ul {
 .tabcontent {
   display: none;
 }
-.tabcontent iframe {
+@media (max-width: 860px) {
+  .tabcontent {
+    margin-bottom: 30px;
+  }
+}
+.materials__video {
   width: 947px;
   height: 536.04px;
 }
 @media (max-width: 1400px) {
-  .tabcontent iframe {
+  .materials__video {
     width: 800px;
   }
 }
 @media (max-width: 1270px) {
-  .tabcontent iframe {
+  .materials__video {
     width: 700px;
     height: 400px;
   }
 }
 @media (max-width: 1160px) {
-  .tabcontent iframe {
+  .materials__video {
     width: 590px;
   }
 }
 @media (max-width: 980px) {
-  .tabcontent iframe {
+  .materials__video {
     width: 500px;
     height: 282px;
   }
 }
 @media (max-width: 860px) {
-  .tabcontent iframe {
+  .materials__video {
     width: 100%;
     height: 450px;
   }
 }
 @media (max-width: 700px) {
-  .tabcontent iframe {
+  .materials__video {
     height: 390px;
   }
 }
 @media (max-width: 550px) {
-  .tabcontent iframe {
+  .materials__video {
     height: 300px;
   }
 }
 @media (max-width: 450px) {
-  .tabcontent iframe {
+  .materials__video {
     height: 200px;
-  }
-}
-@media (max-width: 860px) {
-  .tabcontent {
-    margin-bottom: 30px;
   }
 }
 .reviews {
