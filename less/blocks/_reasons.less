@@ -1,0 +1,80 @@
+.reasons {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url('../img/reasons-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+
+    @media (max-width: 768px) {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    @media (max-width: 550px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+.reasons__content {
+    width: 620px;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}       
+
+.reasons__title {
+    margin-bottom: 60px;
+    color: #FEF0F3;
+
+    @media (max-width: 768px) {
+        margin-bottom: 40px;
+    }
+
+    @media (max-width: 550px) {
+        margin-bottom: 20px;
+    }
+}
+
+.reasons__list {
+    position: relative;
+    left: 40px;
+    list-style-type: none;
+
+    @media (max-width: 768px) {
+        padding-right: 35px;
+        width: 100%;
+    }
+}
+
+.reasons__list-item {
+    position: relative;
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 160%;
+    color: #FEF0F3;
+
+    @media (max-width: 1030px) {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
+
+    @media (max-width: 550px) {
+        font-size: 16px;
+        line-height: 120%;
+    }
+
+    &::before {
+        content: url('../img/reasons-item-img.svg');
+        position: absolute;
+        left: -40px;
+        top: 2px;
+    }
+}

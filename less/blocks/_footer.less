@@ -1,0 +1,142 @@
+.footer {
+    position: relative;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    background: #C43869;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 910px) {
+        flex-direction: column;
+    }
+}
+
+.footer__left {
+    display: flex;
+
+    @media (max-width: 910px) {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+.footer__logo {
+    margin-right: 40px;
+    position: relative;
+    top: -27px;
+
+    img {
+        width: 100%;
+    }
+
+    @media (max-width: 910px) {
+        margin-right: 20px;
+    }
+
+    @media (max-width: 400px) {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.footer__copyright {
+    font-size: 16px;
+    line-height: 160%;
+    color: #FEF0F3;
+    
+    @media (max-width: 480px) {
+        font-size: 12px;
+        line-height: 120%;
+    }
+}
+
+.footer__mid {
+    font-size: 16px;
+    line-height: 160%;
+    color: #FEF0F3;    
+
+    @media (max-width: 910px) {
+        display: none;
+    }
+}
+
+.footer__mid--tablet {
+    @media (max-width: 910px) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 12px;
+        line-height: 120%;
+    }
+}
+
+.footer__patent {
+    margin-bottom: 3px;
+}
+
+.footer__registration {
+    margin-bottom: 3px;
+}
+
+.footer__policy {
+   color: #FEF0F3;   
+}
+
+.footer__right {
+    @media (max-width: 910px) {
+        display: none;
+    }
+}
+
+.footer__right--tablet {
+    @media (max-width: 910px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.footer__adress {
+    font-size: 16px;
+    line-height: 16px;
+    color: #FEF0F3;
+
+    @media (max-width: 480px) {
+        font-size: 12px;
+        line-height: 120%;
+    }
+}
+
+.footer__tel {
+    display: flex;
+
+    img {
+        margin-right: 8px;
+    }
+
+    a {
+        font-size: 24px;
+        line-height: 160%;
+        color: #FEF0F3;  
+        text-decoration: none;    
+        
+        @media (max-width: 480px) {
+            font-size: 16px;
+            line-height: 120%;
+        }
+    }
+}
+
+.footer__bottom {
+    display: none;
+
+    @media (max-width: 910px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
