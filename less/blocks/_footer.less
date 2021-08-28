@@ -115,7 +115,13 @@
     display: flex;
 
     img {
+        width: 19px;
         margin-right: 8px;
+
+        @media (max-width: 500px) {
+            margin-right: 5px;
+            width: 7px;
+        }
     }
 
     a {

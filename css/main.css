@@ -283,6 +283,7 @@ ul {
   display: flex;
 }
 .header__tel img {
+  width: 19px;
   margin-right: 8px;
 }
 @media (max-width: 500px) {
@@ -3086,7 +3087,14 @@ ul {
   display: flex;
 }
 .footer__tel img {
+  width: 19px;
   margin-right: 8px;
+}
+@media (max-width: 500px) {
+  .footer__tel img {
+    margin-right: 5px;
+    width: 7px;
+  }
 }
 .footer__tel a {
   font-size: 24px;
